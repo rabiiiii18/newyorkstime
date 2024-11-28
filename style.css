@@ -180,6 +180,8 @@ span{
 }
 .newsNav {
     display: flex;
+    gap: 4px;
+    justify-content: space-between;
    
   
     
@@ -193,6 +195,13 @@ span{
     font-size: 14px;
     text-decoration: none;
     color: #000;
+}
+
+.footerNav li{
+    margin-right: 1%;
+}
+.footerNav li a{
+    font-size: 12px;
 }
 .menuNav{
     display: flex;
@@ -313,4 +322,95 @@ span{
 .menuItems img{
 width: 140px;
 height: 100px;
+}
+.gamesSection{
+    padding: 0 3%;
+}
+.gameHeading{
+    display: flex;
+    align-items: center;
+    gap:1%
+}
+.gameHeading h4{
+    font-weight: bold;
+}
+.gameHeading p{
+    font-size: 13px;
+    font-style: italic;
+}
+.games{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    
+}
+.left h4{
+    line-height: 25px;
+
+}
+.left p{
+    color: #c6c6c6;
+}
+.right img{
+    width: 100px;
+}
+.gameContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+footer{
+    padding: 0 3%;
+}
+.newsFooter li{
+    list-style: none;
+    line-height: 25px;
+    font-size: 15px;
+}
+.newsFooter h4{
+    margin: 1% 0;
+    font-size: 14px;
+}
+.rightFooter h4{
+    margin: 1% 0;
+    font-size: 14px;
+
+}
+.leftFooter{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+}
+.footerBox{
+    display: flex;
+}
+.rightFooter{
+    /* border: 2px solid red; */
+    flex-grow: 1;
+    padding-left: 2%;
+}
+.boldFooter div{
+    margin: 5%;
+    display: flex;
+    gap: 7%;
+    align-items: center;
+}
+.boldFooter div h4{
+    font-size: 17px;
+}
+.boldFooter div img{
+    width: 15px;
+    height: 15px;
+}
+.smallFooter{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.smallFooter p{
+    font-size: 12px;
 }
